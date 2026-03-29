@@ -1,0 +1,122 @@
+body{
+    font-family: Arial;
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header{
+    background:#333;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#00f2fe;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:80px;
+    background:linear-gradient(to right, #4facfe, #00f2fe);
+    color:white;
+}
+
+.hero button{
+    padding:10px 20px;
+    background:white;
+    color:#333;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:#ddd;
+}
+
+/* Features */
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.box{
+    background:#eee;
+    padding:20px;
+    width:250px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-5px);
+}
+
+/* Courses */
+
+.courses{
+    text-align:center;
+    padding:40px;
+}
+
+.course-box{
+    background:#f4f4f4;
+    margin:10px auto;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.course-box:hover{
+    transform:translateY(-5px);
+}
+
+/* Contact */
+
+.contact{
+    background:#ddd;
+    text-align:center;
+    padding:30px;
+}
+
+/* Footer */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+    .features{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+}
