@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+section{
+    padding:20px;
+    margin:20px;
+}
+
+h2{
+    color:#333;
+}
+
+#about img{
+    border-radius:50%;
+}
+
+ul{
+    list-style-type:square;
+}
+
+.project{
+    background:#f4f4f4;
+    padding:10px;
+    margin:10px 0;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
